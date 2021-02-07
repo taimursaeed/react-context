@@ -17,6 +17,7 @@ export default function App() {
         <ThemeContextUpdate.Provider value={toggleTheme}>
           <Nav></Nav>
           <Body></Body>
+          <Body></Body>
         </ThemeContextUpdate.Provider>
       </ThemeContext.Provider>
     </div>
